@@ -7,5 +7,5 @@ export function getAll () {
 }
 
 export function createTips (tip) {
-    return sendRequest(`${BASE_URL}/create`, "POST", tip)
+    return sendRequest(BASE_URL, "POST", tip)
 }

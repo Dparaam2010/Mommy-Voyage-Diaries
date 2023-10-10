@@ -4,7 +4,7 @@ import { getUser } from '../../utilities/users-service';
 import './App.css';
 import AuthPage from '../AuthPage/AuthPage';
 import NewTips from '../NewTips/NewTips';
-import TipsPage from '../TipsPage/tips';
+import TipsPage from '../TipsPage/TipsPage';
 import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {

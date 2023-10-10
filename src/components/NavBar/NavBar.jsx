@@ -9,9 +9,9 @@ export default function NavBar({ user, setUser }) {
 
   return (
     <nav>
-      <Link to="/tips">Tips for Traveling Mommies</Link>
+      <Link to="/tips">Tiny Travelers Advice</Link>
       &nbsp; | &nbsp;
-      <Link to="/tips/new">What To Do with your Kids</Link>
+      <Link to="/tips/new">Chime In with Your Mommy Tips</Link>
       &nbsp;&nbsp;
       <span>| {user.name}</span>
       &nbsp;&nbsp;<Link to="" onClick={handleLogOut}>Log Out</Link>

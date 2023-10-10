@@ -1,8 +1,8 @@
-const tips = require('../../models/tips');
+const Tip = require('../../models/tips');
 
 module.exports = {
   index,
-  addTips,
+  create,
   updateTips,
   deleteTips,
   edit,
@@ -19,8 +19,9 @@ async function index(req, res) {
 }
 
 
-async function addTips(req, res) {
+async function create(req, res) {
   try{
+    req.body.user=req.user._id
   const tip = await Tip.create(req.body);
   res.json('')
 } catch (err){
