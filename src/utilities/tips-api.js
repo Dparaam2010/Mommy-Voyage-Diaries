@@ -9,3 +9,7 @@ export function getAll () {
 export function createTips (tip) {
     return sendRequest(BASE_URL, "POST", tip)
 }
+
+export function deleteTips(tipId) {
+    return sendRequest(`${BASE_URL}/${tipId}`, "DELETE")
+}

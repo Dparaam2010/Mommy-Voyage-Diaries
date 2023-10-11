@@ -3,8 +3,8 @@ const Tip = require('../../models/tips');
 module.exports = {
   index,
   create,
-  updateTips,
-  deleteTips,
+  update,
+  delete: deleteTips,
   edit,
 };
 
@@ -41,8 +41,9 @@ async function edit(req, res) {
 }
 
 async function deleteTips(req, res) {
-  try{
-  const deleteTip = await Tip.findByIdAndDelete(req.params.id);
+  try{ 
+    console.log(req.params)
+  const deleteTip = await Tip.findOneAndDelete({"_id": req.params.id});
   res.json(deleteTip);
 } catch (err){
   console.log(err)
@@ -50,7 +51,7 @@ async function deleteTips(req, res) {
 }
 }
 
-async function updateTips(req, res) {
+async function update(req, res) {
   try {
   const updatedTips = await Tips.findByIdAndUpdate(req.body.tipId, req.body.newTipInfo, {new: true});
   res.json(updatedTips);
