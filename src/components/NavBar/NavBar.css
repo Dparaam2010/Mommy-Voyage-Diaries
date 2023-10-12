@@ -1,0 +1,10 @@
+#image-wrapper {
+    height: 600px;
+    background-size: cover;
+    width: 100%;
+    background-image:url("../../../images/momblogtips.png");
+  }
+
+  .NavBar {
+    font-family: 'Times New Roman', Times, serif;
+  }

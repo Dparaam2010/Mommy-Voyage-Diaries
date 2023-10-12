@@ -1,14 +1,28 @@
 /* CSS Custom Properties */
+
 :root {
- background-color: whitesmoke;
+  --white: #FFFFFF;
+  --tan-1: #FFFFFF;
+  --tan-2: #FFB6C1;
+  --tan-3: #FFFFFF;
+  --tan-4: whitesmoke;
+  --orange: lightgray;
+  --text-light: #FFFFFF;
+  --text-dark: #FFFFFF;
 }
 
-body {
-  background-color: lightgray;
- 
+* {
+  margin: auto;
+  background-color: var(--white);
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  color: var(--grey-3);
+  box-sizing:border-box;
+  border: double;
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
+form {
+  display: block;
+  margin-top: 0em;
 }
 

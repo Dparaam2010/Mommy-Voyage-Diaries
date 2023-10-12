@@ -5,7 +5,7 @@ const ensureLoggedIn = require('../../config/ensureLoggedIn');
 
 router.get('/', ensureLoggedIn, tipsCtrl.index);
 router.post('/', ensureLoggedIn, tipsCtrl.create);
-router.post('/', ensureLoggedIn, tipsCtrl.update);
+router.post('/:id', ensureLoggedIn, tipsCtrl.update);
 router.delete('/:id', ensureLoggedIn, tipsCtrl.delete);
 router.get('/:id', ensureLoggedIn, tipsCtrl.edit);
 

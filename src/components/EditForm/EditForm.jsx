@@ -1,19 +1,29 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import * as tipsAPI from "../../utilities/tips-api"
-import './TipsForm.css';
+import './EditForm.css';
+import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function TipsForm () {
     const [newTip,setNewTip] =useState({})
     const navigate=useNavigate()
-
+    const params=useParams()
+    useEffect(function(){
+        async function getTip(){
+            const tip=await tipsAPI.getTip(params.id)
+            tip.date=tip.date.split('T')[0];
+            setNewTip(tip)
+        }
+        getTip()
+    },[])
     async function handleSubmit (evt) {
         evt.preventDefault()
 
         try {
-            tipsAPI.createTips(newTip)
-            setNewTip({location:'',length:0,notes:'',date:new Date(),})
-            navigate("/")
+            console.log(newTip, params.id)
+            tipsAPI.editTips(newTip, params.id)
+            navigate("/tips")
         }catch(err){
             console.log(err);
         }
@@ -41,7 +51,7 @@ export default function TipsForm () {
                         Date:
                     </label>
                     <input type="date" name="date" value={newTip.date} onChange={handleChange} required />
-                    <button type="submit">Add Tip</button>
+                    <button type="submit">Edit Tip</button>
                 </form>
         </div>
     )

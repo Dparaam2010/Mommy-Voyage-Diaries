@@ -1,6 +1,7 @@
 import * as tipsAPI from "../../utilities/tips-api"
 import { useEffect, useState } from "react";
 import TipCard from "../../components/TipCard/TipCard";
+import './TipsPage.css';
 
 export default function TipsPage() {
       const [tips, setTips] = useState([])
@@ -19,8 +20,10 @@ export default function TipsPage() {
     <>
       <h1>Mommy's Little Travel Treasures</h1>
       {tips.length ? tipsList : "No Tips Yet"}
+    
     </>
     </main>
+    
   );
 }
 

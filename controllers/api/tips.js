@@ -33,7 +33,8 @@ async function create(req, res) {
 async function edit(req, res) {
   try{
   const tip = await Tip.findById(req.params.id);
-  res.render('tips/edit', { tip });
+  console.log(tip)
+  res.json(tip);
 } catch (err){
   console.log(err)
   res.status(400).json(err)
@@ -53,7 +54,8 @@ async function deleteTips(req, res) {
 
 async function update(req, res) {
   try {
-  const updatedTips = await Tips.findByIdAndUpdate(req.body.tipId, req.body.newTipInfo, {new: true});
+    console.log(req.body)
+  const updatedTips = await Tip.findByIdAndUpdate(req.params.id, req.body, {new: true});
   res.json(updatedTips);
 } catch (err){
   console.log(err)

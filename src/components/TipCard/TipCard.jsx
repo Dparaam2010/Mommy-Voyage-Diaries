@@ -1,17 +1,18 @@
 import * as tipsAPI from "../../utilities/tips-api"
 import './TipCard.css';
+import { useNavigate } from "react-router-dom";
 
 export default function TipCard ({ tip,tips,setTips }){
     const date = new Date(tip.createdAt).toLocaleString()
-
+    const navigate=useNavigate()
     async function handleDelete(tipId) {
         await tipsAPI.deleteTips(tipId);
         setTips(tips.filter(tip => tip._id !== tipId));
       }
 
-      async function handleEdit(tipId) {
-        await tipsAPI.editTips(tipId);
-        setTips(tips.filter(tip => tip._id !== tipId));
+      function handleEdit(tipId) {
+        navigate(`/updatetips${tipId}`)
+      
       }
 
     return((

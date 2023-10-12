@@ -6,6 +6,7 @@ import AuthPage from '../AuthPage/AuthPage';
 import NewTips from '../NewTips/NewTips';
 import TipsPage from '../TipsPage/TipsPage';
 import NavBar from '../../components/NavBar/NavBar';
+import EditForm from '../../components/EditForm/EditForm';
 
 export default function App() {
   const [user, setUser] = useState(getUser());
@@ -19,6 +20,7 @@ export default function App() {
               {/* Route components in here */}
               <Route path="/tips/new" element={<NewTips />} />
               <Route path="/tips" element={<TipsPage />} />
+              <Route path="/updatetips:id" element={<EditForm/>} />
             </Routes>
           </>
           :
