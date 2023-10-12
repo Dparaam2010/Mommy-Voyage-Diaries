@@ -1,6 +1,22 @@
 .TipsPage {
     text-align: center;
-    background-color: lightblue;
+    background-color: #f5e1e0;
+  }
+
+  .TipsPage {
+    font-family: "ProximaNova-Regular", Arial, sans-serif;
+    color: black;
+    font-size: 1rem;
+    letter-spacing: 0.125rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #image {
+    height: 576px;
+    background-size: cover;
+    width: 100%;
+    background-image:url("../../../images/mom.png");
   }
 
 

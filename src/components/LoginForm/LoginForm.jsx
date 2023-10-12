@@ -29,7 +29,7 @@ export default function LoginForm({ setUser }) {
   }
 
   return (
-    <main className="TipsPage">
+    <main className="LoginForm">
     <div>
     <div id="image-wrapper">
       <div className="form-container">

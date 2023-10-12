@@ -1,8 +1,8 @@
 #image-wrapper {
-    height: 600px;
+    height: 576px;
     background-size: cover;
     width: 100%;
-    background-image:url("../../../images/momblogtips.png");
+    background-image:url("../../../images/navbar.png");
   }
 
   .NavBar {

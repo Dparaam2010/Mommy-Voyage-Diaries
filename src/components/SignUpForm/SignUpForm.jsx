@@ -35,6 +35,7 @@ export default class SignUpForm extends Component {
   render() {
     const disable = this.state.password !== this.state.confirm;
     return (
+      <div id="image-wrapper">
       <div>
         <div className="form-container">
           <form autoComplete="off" onSubmit={this.handleSubmit}>
@@ -51,6 +52,7 @@ export default class SignUpForm extends Component {
         </div>
         <p className="error-message">&nbsp;{this.state.error}</p>
       </div>
+  </div>
     );
   }
 }

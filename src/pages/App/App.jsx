@@ -13,6 +13,7 @@ export default function App() {
 
   return (
     <main className="App">
+      <h1>Welcome to Mommy's Little Travel Treasures!</h1>
       { user ?
           <>
             <NavBar user={user} setUser={setUser} />
@@ -26,6 +27,7 @@ export default function App() {
           :
           <AuthPage setUser={setUser} />
       }
+      
     </main>
   );
 }

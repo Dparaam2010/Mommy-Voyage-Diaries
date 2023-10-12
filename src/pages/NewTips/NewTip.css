@@ -1,6 +1,6 @@
 .NewTips {
     text-align: center;
-    background-color: lightblue;
+    background-color: #f5e1e0;
   }
 
 .NewTips {
@@ -9,6 +9,7 @@
 
 .NewTips {
     display: table-column;
+    flex-direction: column;
     grid-template-columns: 45% 45%;
     justify-items: center;
     max-width: fit-content;
@@ -28,3 +29,4 @@
     display: flex;
     justify-content: flex-end;
 }
+
