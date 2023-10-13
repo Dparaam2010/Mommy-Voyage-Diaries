@@ -28,12 +28,12 @@ Experience Mommy’s Little Travel Treasures Here:
 4. Tiny Travelers Advice Page: You’ll typically land on the website’s Tiny Travelers Advice Page. Here, you’ll find all the tips and tricks that other mommies have left. Take a moment to read over all the helpful tips and tricks that other mommies have left.
 <img src="https://i.imgur.com/y0SulbQ.png"/>
 <img src="https://i.imgur.com/92Wkohe.png"/>
+<img src="https://i.imgur.com/AfzFFSQ.png"/>
 5.  Leave a Tip: To leave your own informational Tip or trick, look for a “Chime in with your mommy Tips” button, often located at the top of the page. Click on this button to share your wisdom with other mommies. Scroll down and you will see the tip section where you can add the location, Days Spent, Tips for other mommies, and the date you went on your trip. Don’t worry if you make a mistake, you can edit and delete it from Tiny Travelers Advice Page.
-<img src=""/>
-<img src=""/>
+<img src="https://i.imgur.com/HiRd6hm.png"/>
 6. Edit: If you need to edit your tip it will take you to the edit page where you can change the Location, Days Spent, Tips for other mommies, and the date you went on your trip. 
-<img src=""/>
-<img src=""/>
+<img src="https://i.imgur.com/8bRWUeV.png"/>
+<img src="https://i.imgur.com/dr8LIUI.png"/>
 #### Next Steps (icebox):
 •	I want to add a weather API to my website. 
 •	I want to make it so moms can upload photos of their trip with their comments.
