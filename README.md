@@ -8,11 +8,13 @@ We all know that traveling with little ones can be an adventure. That’s why we
 "Mommy's Travel Treasures" is a vibrant and supportive online community for mothers who are passionate about traveling with their little ones. This travel blog serves as a virtual haven where adventurous moms can connect, exchange valuable insights, and document their globetrotting journeys with their children. Here's what you can expect from this heartwarming and informative travel blog. Discover an extensive collection of tips, tricks, and hacks to make traveling with kids a breeze. Experienced mommy travelers share their wisdom on everything from packing essentials to managing jet lag and creating memorable family experiences. "Mommy's Travel Treasures" is your go-to resource for creating wonderful family memories while exploring the world. Join our vibrant community of adventurous mommies today and embark on a journey of discovery, learning, and bonding that will last a lifetime. Happy travels, and may your adventures be filled with love, laughter, and precious moments with your little ones!
 
 
-Mommy’s Little Travel Treasures Here 
+Access Mommy’s Little Travel Treasures Here:
+
 The Technologies i Used:
 •	React
 •	MERN Stack
 •	Html, CSS, JavaScript
+
 Getting Started
 Experience Mommy’s Little Travel Treasures Here:
 1.    Access the Website: Open your preferred web browser and enter the URL of Mommy’s Little Travel Treasures website in the address bar. Press “Enter” to access the site.
@@ -34,6 +36,8 @@ Experience Mommy’s Little Travel Treasures Here:
 6. Edit: If you need to edit your tip it will take you to the edit page where you can change the Location, Days Spent, Tips for other mommies, and the date you went on your trip. 
 <img src="https://i.imgur.com/8bRWUeV.png"/>
 <img src="https://i.imgur.com/dr8LIUI.png"/>
+
+
 #### Next Steps (icebox):
 •	I want to add a weather API to my website. 
 •	I want to make it so moms can upload photos of their trip with their comments.
