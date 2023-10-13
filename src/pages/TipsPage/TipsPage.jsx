@@ -27,10 +27,8 @@ export default function TipsPage() {
       <h4> Join our community of fellow travel-loving moms, share your experiences, and connect with like-minded adventurers. We're all in this together!</h4>
       <h2>LATEST TRAVEL TIPS</h2>
       {tips.length ? tipsList : "No Tips Yet"}
-      <div id="image">
       <h3>🚀 Stay Tuned:Keep an eye on our blog for more helpful travel tips, destination guides, and family-friendly tips and tricks. We're here to support you on your journey to making lasting travel memories with your little ones.</h3>
       <h2>Happy travels!</h2>
-      </div>
     </>
     </main>
     
