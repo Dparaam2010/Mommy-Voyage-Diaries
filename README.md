@@ -16,20 +16,18 @@ The Technologies i Used:
 Getting Started
 Experience Mommy’s Little Travel Treasures Here:
 1.    Access the Website: Open your preferred web browser and enter the URL of Mommy’s Little Travel Treasures website in the address bar. Press “Enter” to access the site.
-<img src="https://i.imgur.com/y0SulbQ.png"/>
+<img src="https://i.imgur.com/uLw7Cg9.png"/>
 
 2. Log in Page: If you already have an account with Mommy’s Little Travel Treasures, you can just log in using your username and password. 
 
-<img src=""/>
-<img src=""/>
+<img src="https://i.imgur.com/QFr9mXu.png"/>
 
 3. Sign up Page: On Mommy’s Little Travel Treasures website to access the website or to leave a Tip for other mom’s you must sign in by creating a username and password. 
-<img src=""/>
-<img src=""/> 
+<img src="https://i.imgur.com/fozYDsU.png"/>
 
 4. Tiny Travelers Advice Page: You’ll typically land on the website’s Tiny Travelers Advice Page. Here, you’ll find all the tips and tricks that other mommies have left. Take a moment to read over all the helpful tips and tricks that other mommies have left.
-<img src=""/>
-<img src=""/>
+<img src="https://i.imgur.com/y0SulbQ.png"/>
+<img src="https://i.imgur.com/92Wkohe.png"/>
 5.  Leave a Tip: To leave your own informational Tip or trick, look for a “Chime in with your mommy Tips” button, often located at the top of the page. Click on this button to share your wisdom with other mommies. Scroll down and you will see the tip section where you can add the location, Days Spent, Tips for other mommies, and the date you went on your trip. Don’t worry if you make a mistake, you can edit and delete it from Tiny Travelers Advice Page.
 <img src=""/>
 <img src=""/>
