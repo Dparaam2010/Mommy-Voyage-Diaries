@@ -16,7 +16,7 @@ The Technologies i Used:
 Getting Started
 Experience Mommy’s Little Travel Treasures Here:
 1.    Access the Website: Open your preferred web browser and enter the URL of Mommy’s Little Travel Treasures website in the address bar. Press “Enter” to access the site.
-<img src="https://i.imgur.com/y0SulbQ"/>
+<img src="https://i.imgur.com/y0SulbQ.png"/>
 
 2. Log in Page: If you already have an account with Mommy’s Little Travel Treasures, you can just log in using your username and password. 
 
