@@ -12,9 +12,12 @@ Access Mommy’s Little Travel Treasures Here:
 https://mommys-little-travel-treasures-1e9a3ca22b0e.herokuapp.com/
 
 The Technologies i Used:
+•	MongoDB/Mongoose
+•	MERN-stack
+•	Express
 •	React
-•	MERN Stack
-•	Html, CSS, JavaScript
+•	Node
+
 
 Getting Started
 Experience Mommy’s Little Travel Treasures Here:
@@ -37,6 +40,16 @@ Experience Mommy’s Little Travel Treasures Here:
 6. Edit: If you need to edit your tip it will take you to the edit page where you can change the Location, Days Spent, Tips for other mommies, and the date you went on your trip. 
 <img src="https://i.imgur.com/8bRWUeV.png"/>
 <img src="https://i.imgur.com/dr8LIUI.png"/>
+
+ Planning a Trello board :
+<img src="https://i.imgur.com/XPR7a4S.png"/>
+
+Wireframes:
+<img src="https://i.imgur.com/XPR7a4S.png"/>
+
+Entity-Relationship-Diagram (ERD):
+<img src="https://i.imgur.com/BW9KVek.png"/>
+
 
 
 #### Next Steps (icebox):
