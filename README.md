@@ -45,7 +45,7 @@ Experience Mommy’s Little Travel Treasures Here:
 <img src="https://i.imgur.com/XPR7a4S.png"/>
 
 Wireframes:
-<img src="https://i.imgur.com/XPR7a4S.png"/>
+<img src="https://i.imgur.com/RAZAvnH.png"/>
 
 Entity-Relationship-Diagram (ERD):
 <img src="https://i.imgur.com/BW9KVek.png"/>
